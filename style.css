@@ -1,0 +1,107 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+*{
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    background-color: #1e3829;
+    color: white;
+    justify-content:space-between ; 
+    
+}
+
+.main{
+    padding-top: 10px;
+    
+}
+
+.main:hover{
+    background-color: lightgoldenrodyellow;
+}
+
+
+
+.s2:hover{
+    background-color: black;
+}
+.s1:hover{
+    background-color: black;
+}
+
+
+
+img{
+    width: 300px;
+    height: 200px;
+    border: 2px solid;
+}
+p{
+    text-align: justify;
+    padding: 5px;
+}
+.content{
+background-image: url(https://akm-img-a-in.tosshub.com/businesstoday/images/story/202208/tollywood-sixteen_nine.jpg?size=1200:675);
+display: flex;
+width: 100vw;
+height: 90vh;
+justify-content: center;
+gap: 5px;
+flex-wrap: wrap;
+
+
+}
+
+
+.sample1{
+   
+    margin-top: 300px;
+}
+.sample2{
+    margin-top: 150px;
+}
+.sample3{
+    margin-top: 300px;
+}
+.sample4{
+    margin-top: 150px;
+}
+.sample1,.sample2,.sample3,.sample4{
+    border: 2px solid white;
+    gap: 30px;
+    background-color: rgba(232, 213, 213, 0.923);
+    width: 20%;
+    height: 30vw;
+    width: 20vw;
+}
+
+.sample1:hover{
+  background-color: rgb(191, 255, 0);
+
+}
+
+.sample2:hover{
+    background-color: rgb(209, 193, 15);
+  
+  }
+
+  .sample3:hover{
+    background-color: rgb(21, 142, 212);
+  
+  }
+
+  .sample4:hover{
+    background-color: rgb(193, 20, 34);
+  
+  }
+
+footer{
+    background-color: rgb(0, 0, 0);
+    padding: 20px;
+    height: 180px;
+
+}
